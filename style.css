@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    }
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* border: 1; */
+}
+header{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: hsl(184, 100%, 22%);
+    font-size: 19px;
+    font-weight: bold;
+    
+}
+div{
+    height: 60%;
+    padding: 2em;
+    border-radius: 1%;
+}
+div h3{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 1em;
+    font-size: 1.5em;
+}
+div img{
+    padding-bottom: 1em;
+}
+div p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    padding-bottom: 1em;
+}
+.first{
+    background-color: hsl(31, 77%, 52%);
+    width: 100%;
+}
+.second{
+    background-color: hsl(184, 100%, 22%);
+    width: 100%;
+}
+.third{
+    background-color: hsl(179, 100%, 13%);
+    width: 100%;
+}
+button{
+    position: absolute;
+    bottom:9em;
+    width: 100px;
+    padding: 8px;
+    border-radius: 25px;
+    border: 0;
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+}
+button.button1{
+    color: hsl(31, 77%, 52%);
+}
+button.button2{
+    color: hsl(184, 100%, 22%);
+}
+button.button3{
+    color: hsl(179, 100%, 13%);
+}
